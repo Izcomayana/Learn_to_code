@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: url(/images/bg-intro-desktop.png);
+    background-color: rgb(255, 130, 145);
+}
+
+    .main-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .first-container {
+            color: white;
+            margin-top: 300px;
+            width: 30%;
+            height: fit-content;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+            .learn {
+                font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+                font-size: 45px;
+                font-weight: 650;
+                margin-bottom: 20px;
+            }
+
+            .learn-paragraph {
+                width: 135%;
+            }
+
+        .second-container {
+            display: flex;
+            flex-direction: column;
+            margin: 100px 0px;
+            width: 40%;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+            .try-it-free {
+                background-color: rgb(62, 82, 163);
+                color: white;
+                padding: 20px 70px;
+                border-radius: 10px;
+                box-shadow: 0px 5px rgb(163, 132, 132);
+            }
+
+            .input-container {
+                display: flex;
+                flex-direction: column;
+                padding: 20px 10px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px;
+                box-shadow: 0px 6px rgb(163, 132, 132);
+            }
+
+                .inputs {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 30px 30px;
+                    color: black;
+                }
+
+                    .input-texts {
+                        padding: 15px 15px;
+                        border-radius: 5px;
+                        border: 1px solid rgb(0, 0, 0);
+                    }
+
+                    .submit-button {
+                        color: white;
+                        padding: 15px 15px;
+                        border-radius: 7px;
+                        border: 0 solid rgb(0, 0, 0);
+                        background-color: rgb(67, 187, 87);
+                        box-shadow: 0px 3px green;
+                    }
+
+                    .submit-button:hover {
+                        color: greenyellow;
+                    }
+
+                    .terms-and-services {
+                        font-size: 13px;
+                        font-weight: 480;
+                        margin: 0 auto;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(255, 57, 57);
+                        font-weight: 700;
+                    }
+
+                    a:hover {
+                        color: rgb(255, 155, 155);
+                    }
+
+@media (max-width:  650px)  {
+    .main-container {
+        flex-direction: column;
+        text-align: center;
+        margin: 50px 20px;
+    }
+
+    .first-container {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .learn {
+        font-size: 34px;
+    }
+
+    .learn-paragraph {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .second-container {
+        width: 95%;
+        margin: 100px auto;
+    }
+}
+
+
